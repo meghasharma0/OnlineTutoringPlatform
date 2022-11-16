@@ -1,0 +1,298 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#title{
+    background-color: #F1EEE9;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.container-fluid{
+    padding: 4% 10% 7% 10%;
+}
+
+/* Navigation bar */
+.navbar{
+    padding: 0 0 3.5rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* This change is for media viewport */
+.img-fluid{
+    height: 365px;
+    margin: 0 0 0 25%;
+}
+.poc-all, .intro-all{
+    width: 30%;
+}
+
+/* Section 2 Features */
+h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#features{
+    margin: 5% 5%;
+}
+
+/* Common */
+.left-common-css{
+    padding: 2.5%;
+    font-size: 1.2rem;
+}
+
+.feature-box{
+    font-size: 1.2rem;
+}
+h3{
+    font-weight: 15rem;
+}
+.para{
+    margin: 20px 0;
+}
+h4{
+    font-weight: bold;
+}
+.subjects{
+    height: 300px;
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+.sub-para{
+    font-size: 1rem;
+    width: 300px;
+    margin: 0 0 50px 0;
+}
+
+/* Testimonial reviews */
+#testimonial{
+    padding: 15% 5%;
+    background-color: #F2F2F2;
+}
+.carousel-item{
+    padding:7% 15% ;
+    /* background-color: grey; */
+    /* background-image: url('student-1.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('student-1.jpg');
+    background-size: cover;
+}
+.testimonial-para{
+    padding: 30px 0 30px 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Form section */
+
+
+/* Contact section */
+#contact{
+    padding: 5% 5%;
+    background-color: #CCD1E4;
+}
+
+/* Footer section */
+#footer{
+    color: rgb(148, 148, 148);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+
+/* ABOUT PAGE */
+#introduction{
+    /* padding: 2% 2%; */
+    background-color: #EEEEEE;
+}
+
+/* bio section */
+.background{
+    padding: 5%;
+}
+.about-left-common{
+    width: 20rem;
+    font-size: 1.2rem;
+    margin: 3% 2.5%;
+}
+.about-right-para{
+    font-size: 1.2rem;
+    margin: 4.5%;
+    line-height: 2rem;
+}
+
+
+
+/* BOOK ONLINE SESSION PAGE */
+#book-online-session{
+    background-color: #EEEEEE;
+}
+.book-session-main{
+    margin: 5% 5%;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 2% 0 3% 0;
+}
+.session-para{
+    font-size: 1.2rem;
+}
+hr{
+    border: 2px solid black;
+}
+.costing{
+    padding: 3% 0 3% 0;
+}
+.costing-para{
+    margin: 4% 0 0 20%;
+    padding: 0 0 0 50%;
+}
+.costing-btn{
+    padding: 1% 0 0 18.8%;
+}
+
+
+/* PACKAGES PAGE */
+#package{
+    background-color: #EEEEEE;
+    padding: 0 0 15% 0;
+}
+.package-heading{
+    text-align: center;
+    margin: 8% 18% 8% 18%;
+}
+.package-para{
+    padding: 5% 0;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.cards-all{
+    margin: 3% 0;
+}
+.cards-section{
+    text-align: center;
+}
+
+
+
+
+
+
+/* MEDIA VIEWPORTS */
+@media (max-width: 1024px){
+    #title, #features, #contact, #introduction{
+        text-align: center;
+    }
+    .img-fluid{
+        height: 300px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .poc-all, .intro-all{
+        width: 100%;
+    }
+    .poc-button{
+        margin: 10% 0;
+    }
+
+    .sub-all{
+        margin: 5% 0;
+    }
+    .subjects{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sub-para{
+        margin: auto;
+    }
+    .about-me-button{
+        margin: 5% 0 3% 0;
+    }
+
+    #testimonial{
+        text-align: center;
+        padding: 5%;
+    }
+    #testimonial-carousel{
+        margin: 5%;
+    }
+
+
+
+
+    /* ABOUT */
+    .intro-all{
+        margin: 2% 0 10% 0;
+    }
+    .background{
+        margin: auto;
+        padding: 3% 5%;
+    }
+    .intro-para{
+        margin: 5% 0;
+    }
+
+
+
+    /* BOOK AN ONLINE SESSION */
+    .session-para{
+        margin: 5% 0;
+    }
+    .costing{
+        /* border: 2px solid grey; */
+        padding: 5%;
+        background-color: #5FD068;
+    }
+    .costing-para{
+        /* padding: 0 0 0 60%; */
+        float: right;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .costing-btn{
+        padding: 5% 2% 0;
+    }
+    .cost-button{
+        width: 100%;
+    }
+    .start-learning-heading{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 578px){
+
+    .costing-para{
+        padding: 0 5%;
+        margin: 5% 37%;
+    }
+    .start-learning-all{
+        text-align: center;
+        margin: 5% 0;
+    }
+
+}
